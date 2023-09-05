@@ -1,0 +1,33 @@
+body {
+	background-image: url(../img/resized.jpeg);
+	background-repeat: no-repeat;	
+}
+
+.MainPage {
+
+	border-style: dotted;
+	height: 60vh;
+}
+
+.mainPageNav {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+}
+
+/* The navigation menu links */
+.mainPageNav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: inline;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.mainPageNav a:hover {
+  color: #f1f1f1;
+}
